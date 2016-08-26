@@ -1,1 +1,117 @@
 
+@import 'https://fonts.googleapis.com/css?family=Aldrich';
+@import 'https://fonts.googleapis.com/css?family=Geostar';
+body {
+/*   background-color: #4D4C2D; */
+  background-color:gray;
+  font-family: 'Aldrich', sans-serif;
+}
+.font-calculator {
+font-family: 'Geostar', cursive;
+}  
+span {
+  display:block;
+  margin:0;
+  padding:0;
+}
+.own-fluid-container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.fixed-size {
+  max-width:325px;
+  max-height:455px;
+  margin-left:auto;
+  margin-right:auto
+}
+.calculator-wrapper {
+  margin-top: 1.5em;
+  text-align: center;
+}
+.border{
+  border: 2.5px solid #8F8D8E;
+  border-radius:15px  
+}
+.black {
+  color:black;
+}
+.cream {
+  background-color: #DFD8D0;
+}
+.padded {
+  padding: 1em;
+}
+.shadow {
+  -webkit-box-shadow:
+  13px 17px 32px 1px rgba(0,0,0,0.75),
+inset -99px -100px 147px -129px rgba(0,0,0,0.55);
+  -moz-box-shadow:
+  13px 17px 32px 1px rgba(0,0,0,0.75),
+inset -99px -100px 147px -129px rgba(0,0,0,0.55);
+  box-shadow:
+ 13px 17px 32px 1px rgba(0,0,0,0.75),
+inset -99px -100px 147px -129px rgba(0,0,0,0.55);
+}
+.screen {
+  width:240px;
+  border: 2px solid #B3B99A;
+  width: 90%;
+  margin: auto;
+  text-align: right;
+  padding:5px;
+  border-radius:10px;
+  min-height: 85px;
+}
+.margin-zero {
+  margin:0;
+  padding:0
+}
+.margin-bottom {
+  margin-bottom: 1em;
+}
+.margin-both {
+  margin-bottom: 0.75em;
+  margin-top: 0.25em;
+}
+.btn {
+  margin: 0.225em;
+  width:18%; 
+/*   border-radius:0; */
+  border:none;
+  border-bottom:4px solid #111111;
+  background-color: #343436; 
+  color: White;
+}
+ .btn:hover, btn.active.focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn:active:focus, .btn:focus {
+  border-bottom:4px solid #111111;
+  background-color: #343436;
+  color:white;
+  outline: none; 
+}
+.special-width {
+  width:40%;
+}
+.dark-blue {
+  background-color: #0791CF;
+  border-bottom:4px solid #067DB1;
+}
+.btn.dark-blue:hover,  btn.dark-blue.active.focus, .btn.dark-blue.active:focus, .btn.dark-blue.focus, .btn.dark-blue:active.focus, .btn.dark-blue:active:focus, .btn.dark-blue:focus{
+  background-color: #0791CF;
+  border-bottom:4px solid #067DB1;
+}
+.green-calculator {
+  background-color: #C1C5AC;
+}
+.big-font {
+  font-size:30px;
+  padding: 0;
+  margin:0;
+}
+.small-font {
+  font-size:16px;
+  font-weigth:100;
+  padding: 0;
+  margin:0;
+}
